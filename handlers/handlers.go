@@ -1,7 +1,7 @@
 package handlers
 
 import(
-	"github.com/rs/cors@v1.7.0"
+	"github.com/rs/cors"
 	"log"
 	"net/http"
 	"os"

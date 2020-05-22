@@ -15,7 +15,7 @@ esto sirva para decirle a heroku que los archivos que subo son de golang
 ## INICIA :-)
 
 `````Consola
-> go get -t go.mongodb.org/mongo-driver/mongo"
+> go get -t go.mongodb.org/mongo-driver/mongo
 > go get go.mongodb.org/mongo-driver/mongo
 > go get go.mongodb.org/mongo-driver/mongo/options
 > go get go.mongodb.org/mongo-driver/bson
