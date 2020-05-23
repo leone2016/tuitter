@@ -2,6 +2,7 @@ package bd
 
 import (
 	"context"
+	"github.com/leone2016/tuitter/bundle"
 	"log"
 
 	"go.mongodb.org/mongo-driver/mongo"
@@ -24,7 +25,7 @@ func ConectarBD() *mongo.Client {
 		log.Fatal(err.Error())
 		return client
 	}
-	log.Println("Conexión Exitosa con la BD")
+	log.Println(bundle.ConexionExitosa)
 	return client
 }
 

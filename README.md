@@ -1,4 +1,11 @@
-# Tuitter"
+# Tuitter" -
+
+
+## comandos golang
+`````Consola
+> go run main.go
+> go build main.go
+...
 
 ## subir a heroku
 `````Consola

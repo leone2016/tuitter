@@ -1,10 +1,12 @@
 package main
-import(
-	"github.com/leone2016/tuitter/handlers"
+
+import (
 	"github.com/leone2016/tuitter/bd"
+	"github.com/leone2016/tuitter/handlers"
 	"log"
 )
-func main(){
+
+func main() {
 	if bd.StatusConeccion() == 0 {
 		log.Fatal("Sin conexiòn en la BD")
 		return
